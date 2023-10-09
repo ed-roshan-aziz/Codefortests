@@ -1,14 +1,49 @@
 # Initialize a new Git repository in the current directory:
 git init
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
 mkdir -p .github/workflows
 
 touch .github/workflows/ci.yml
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 git pull origin main
 
 git merge --allow-unrelated-histories origin/main
 
+<<<<<<< HEAD
+=======
+=======
+git fetch origin main
+
+git merge --allow-unrelated-histories origin/main
+
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+mkdir -p .github/workflow
+
+touch .github/workflows/ci.yml
+
+=======
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
 # Add all files in the current directory to the staging area:
 git add .
 
@@ -26,7 +61,27 @@ git commit -m "Running pipeline"
 
 # Adds a remote repository named "origin" 
 # replace <remote repository URL> with your own gitlab URL:
+<<<<<<< HEAD
 git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+<<<<<<< HEAD
+git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+<<<<<<< HEAD
+git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+<<<<<<< HEAD
+git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+<<<<<<< HEAD
+git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+git remote add origin https://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@github.com/ed-roshan-aziz/Codefortests.git
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
 
 
 # The command "git branch -M main" is used to 
