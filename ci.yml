@@ -1,9 +1,38 @@
 name: Run Tests
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/main
 on: 
 push:
     branches:
       - origin/main
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+on: push
+=======
+<<<<<<< HEAD
+on: push
+=======
+on:
+  push:
+    branches:
+<<<<<<< HEAD
+      - main # Change this to the branch you want to trigger on
+=======
+<<<<<<< HEAD
+      - main # Change this to the branch you want to trigger on
+=======
+      - main  # Change this to the branch you want to trigger on
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
+>>>>>>> origin/main
 
 jobs:
   build:
