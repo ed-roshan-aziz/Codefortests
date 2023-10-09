@@ -1,10 +1,13 @@
 # Initialize a new Git repository in the current directory:
 git init
 
+<<<<<<< HEAD
 mkdir -p .github/workflow
 
 touch .github/workflows/ci.yml
 
+=======
+>>>>>>> origin/main
 # Add all files in the current directory to the staging area:
 git add .
 
@@ -22,7 +25,11 @@ git commit -m "Running pipeline"
 
 # Adds a remote repository named "origin" 
 # replace <remote repository URL> with your own gitlab URL:
+<<<<<<< HEAD
 git remote add origin https://github.com/ed-roshan-aziz/Codefortests.git
+=======
+git remote add origin https://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@github.com/ed-roshan-aziz/Codefortests.git
+>>>>>>> origin/main
 
 
 # The command "git branch -M main" is used to 
