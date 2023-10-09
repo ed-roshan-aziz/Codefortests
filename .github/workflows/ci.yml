@@ -19,7 +19,8 @@ jobs:
           python-version: 3.8  # Choose the Python version you need
         
       - name: install pip
-        run: python3 get-pip.py
+        run: python -m ensurepip --default-pip
+             python -m pip install --upgrade pip
 
       - name: install pytest
         run: pip3 install -U pytest
