@@ -18,8 +18,5 @@ jobs:
         with:
           python-version: 3.8  # Choose the Python version you need
 
-      - name: Install Dependencies
-        run: pip install -r requirements.txt  # Replace with your package manager and dependencies
-
       - name: Run Tests
         run: pytest main.py  # Replace with the appropriate command to run your tests
